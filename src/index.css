@@ -6,6 +6,10 @@ body {
   font-weight: 400;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+  width: 100%;
+  max-width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #root {

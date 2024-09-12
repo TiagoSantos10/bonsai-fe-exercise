@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import styles from './Navbar.module.css';
 import NavbarItem from './NavbarItem/NavbarItem';
 
@@ -49,8 +50,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className={styles.navRight}>
-                    <button>Log In</button>
-                    <button>Start Free</button>
+                    <Button text="Log In" type="inverted" />
+                    <Button text="Start Free" />
                 </div>
             </nav>
         </header>
