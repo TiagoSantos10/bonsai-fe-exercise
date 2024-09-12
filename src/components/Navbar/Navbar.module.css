@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 12%;
+}
+
+.navLeft {
+    margin-right: 40px;
+}
+
+.navigationLinks {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
