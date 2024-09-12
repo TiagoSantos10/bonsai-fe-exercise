@@ -1,0 +1,15 @@
+{
+  "short_name": "Pricing - Bonsai Freelance Solution",
+  "name": "Pricing - Bonsai Freelance Solution",
+  "icons": [
+    {
+      "src": "http://web.archive.org/web/20221117021714im_/https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/58868bcd2ef4daaf0f072927_favicon-32x32.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
