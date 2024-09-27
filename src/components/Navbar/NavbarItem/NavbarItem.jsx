@@ -11,7 +11,9 @@ const NavbarItem = ({ text, url, hasDropdown }) => {
                     {text}
                 </a>
             </li>
-            <div className={styles.dropdownArrow} />
+            {hasDropdown && (
+                <div className={styles.dropdownArrow} />
+            )}
         </div>
     );
 };
