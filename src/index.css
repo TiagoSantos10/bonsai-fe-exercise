@@ -10,6 +10,17 @@ body {
   max-width: 70rem;
   margin-right: auto;
   margin-left: auto;
+  color: #4c525a;
+}
+
+h1 {
+  font-family: amerigo-bt;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #4c525a;
 }
 
 #root {
@@ -22,4 +33,11 @@ main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+
+/* Personalized Fonts */
+
+@font-face {
+  font-family: 'Amerigo-bt';
+  src: local('amerigo-bt'), url(fonts/Amerigo/amerigo-bt.ttf) format('truetype');
 }

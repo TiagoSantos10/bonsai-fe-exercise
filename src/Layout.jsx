@@ -1,11 +1,12 @@
 import Navbar from './components/Navbar/Navbar';
+import PlansSection from './components/PlansSection/PlansSection';
 
 const Layout = () => {
   return (
     <>
       <Navbar />
       <main>
-        <h1>Page</h1>
+        <PlansSection />
       </main>
       <footer>Cenas do footer</footer>
     </>

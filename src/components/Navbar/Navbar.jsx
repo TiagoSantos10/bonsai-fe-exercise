@@ -45,6 +45,7 @@ const Navbar = () => {
                                 text={item.name}
                                 url={item.url}
                                 hasDropdown={item.hasDropdown}
+                                key={item.id}
                             />
                         ))}
                     </ul>
